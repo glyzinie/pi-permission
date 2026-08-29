@@ -9,7 +9,7 @@ import {
   type PermissionAnalyzerResult,
   type PermissionRequest,
   type RegisterAnalyzerEvent,
-} from "./pi-permission.ts";
+} from "./index.ts";
 
 type Token =
   | { type: "word"; value: string; quoted: boolean; dynamic: boolean }

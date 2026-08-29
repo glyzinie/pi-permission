@@ -19,7 +19,7 @@ import {
   type PermissionReview,
   type PermissionReviewer,
   type RegisterReviewerEvent,
-} from "./pi-permission.ts";
+} from "./index.ts";
 
 const PROVIDER_ID = "openai-codex";
 const MODEL_ID = "codex-auto-review";
